@@ -3,6 +3,7 @@ This is an example of how to use ART for creating backdoor attacks in DGMs with 
 Among the various approaches introduced by this methodology, this particular example uses the RED backdoor attack.
 
 Please refer to the original paper (https://arxiv.org/abs/2108.01644) for further information.
+Small change
 """
 from art.attacks.poisoning.backdoor_attack_dgm.backdoor_attack_dgm_red import BackdoorAttackDGMReDTensorFlowV2
 from art.estimators.generation.tensorflow import TensorFlowV2Generator
